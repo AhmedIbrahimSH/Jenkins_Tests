@@ -1,2 +1,2 @@
-prin("ahmed")   // error here
+prin("ahmed")   #error here
 print("ahmed")
