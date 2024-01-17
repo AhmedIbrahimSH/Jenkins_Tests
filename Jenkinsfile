@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Replace this with your build commands
-                sh 'echo "hello word"'
+                echo "hello word"
             }
         }
         // Additional stages like 'Test', 'Deploy', etc. can be added here
