@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Replace this with your build commands
-                sh 'C:/Users/ashar/AppData/Local/Programs/Python/Python311/python.exe script3.py'
+                sh 'echo "hello word"'
             }
         }
         // Additional stages like 'Test', 'Deploy', etc. can be added here
